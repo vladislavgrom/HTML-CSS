@@ -15,7 +15,6 @@ body {
 }
 
 .main {
-  font-size: 1.25em;
   display: flex;
   flex: 1 0 auto;
 }
@@ -72,6 +71,7 @@ h1 {
 }
 
 .section {
+  font-size: 1.25em;
   padding: 0.5em;
   width: 60%;
 }
