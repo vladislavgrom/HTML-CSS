@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        background-color: antiquewhite;
+      }
+
+      .content_box {
+        border: 8px solid black;
+        width: 512px;
+        height: 128px;
+        margin: 16px;
+        padding: 16px;
+      }
+
+      .first_box {
+        box-sizing: content-box;
+        background-color: aquamarine;
+      }
+
+      .second_box {
+        box-sizing: border-box;
+        background-color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first_box content_box">Content Box Sizing</div>
+    <div class="second_box content_box">Border Box Sizing</div>
+  </body>
+</html>
