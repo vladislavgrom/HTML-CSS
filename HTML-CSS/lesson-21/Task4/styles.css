@@ -8,7 +8,6 @@ html {
   font-size: 16px;
 }
 
-
 body {
   min-height: 100vh;
   display: flex;
@@ -17,14 +16,13 @@ body {
 
 .main {
   font-size: 1.25em;
-  flex-grow: 1;
+  display: flex;
+  flex: 1 0 auto;
 }
-
 
 .units-list {
   line-height: 1.75em;
 }
-
 
 .css-units {
   color: #8b0000;
@@ -48,24 +46,22 @@ body {
   color: #fff;
   line-height: 2em;
   margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .nav-list-link {
-  display: flex;
-  padding: 0 0.5em ;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  padding: 0 0.5em;
   text-decoration: none;
   color: #fff;
-  max-width: 100%;
+  width: 100%;
 }
 
-
-.header, h1 {
-  margin: 0;
+.header,
+h1 {
   text-align: center;
-  background-image: linear-gradient(60deg, red,orange);
+  background-image: linear-gradient(60deg, red, orange);
 }
 
 .navigation {
@@ -73,9 +69,8 @@ body {
   width: 20%;
 }
 
-
 .section {
-  padding: 0 0.5em;
+  padding: 0.5em;
   width: 60%;
   flex-grow: 1;
   margin: auto;
@@ -84,9 +79,7 @@ body {
 .news {
   padding: 0 0.5em;
   width: 20%;
-  
 }
-
 
 .footer {
   flex-shrink: 0;
