@@ -60,19 +60,19 @@ body {
 
 .header,
 h1 {
+  color: #fff;
   text-align: center;
   background-image: linear-gradient(60deg, red, orange);
 }
 
 .navigation {
-  padding: 0 0.5em;
+  padding: 0.5em;
   width: 20%;
 }
 
 .section {
   padding: 0.5em;
   width: 60%;
-  flex-grow: 1;
   margin: auto;
 }
 
